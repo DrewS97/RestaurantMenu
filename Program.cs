@@ -6,7 +6,7 @@ namespace RestaurantMenu
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            UI.UIFunction();
         }
     }
 }

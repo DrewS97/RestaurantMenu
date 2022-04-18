@@ -1,0 +1,16 @@
+C:\Users\drews\gitprojects\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.exe
+C:\Users\drews\gitprojects\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.deps.json
+C:\Users\drews\gitprojects\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.runtimeconfig.json
+C:\Users\drews\gitprojects\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.runtimeconfig.dev.json
+C:\Users\drews\gitprojects\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.dll
+C:\Users\drews\gitprojects\RestaurantMenu\bin\Debug\net5.0\ref\RestaurantMenu.dll
+C:\Users\drews\gitprojects\RestaurantMenu\bin\Debug\net5.0\RestaurantMenu.pdb
+C:\Users\drews\gitprojects\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.csprojAssemblyReference.cache
+C:\Users\drews\gitprojects\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drews\gitprojects\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.AssemblyInfoInputs.cache
+C:\Users\drews\gitprojects\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.AssemblyInfo.cs
+C:\Users\drews\gitprojects\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.csproj.CoreCompileInputs.cache
+C:\Users\drews\gitprojects\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.dll
+C:\Users\drews\gitprojects\RestaurantMenu\obj\Debug\net5.0\ref\RestaurantMenu.dll
+C:\Users\drews\gitprojects\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.pdb
+C:\Users\drews\gitprojects\RestaurantMenu\obj\Debug\net5.0\RestaurantMenu.genruntimeconfig.cache
