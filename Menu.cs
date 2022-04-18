@@ -7,14 +7,7 @@ namespace RestaurantMenu
     public class Menu
     {
         public static List<MenuItems> Items = new List<MenuItems>();
-        public static List<string> CategoryList = new List<string>();
-
-        public static List<string> SetCategories()
-        {
-            string[] categories = {"Appetizer", "Burger", "Seafood", "Sides", "Dessert"};
-            CategoryList.AddRange(categories);
-            return CategoryList;
-        }
+        public static List<string> CategoryList = new List<string>() {"Appetizer", "Burger", "Seafood", "Sides", "Dessert"};
 
         public static void AddItemPrompt()
         {
@@ -24,7 +17,6 @@ namespace RestaurantMenu
             string desc = Console.ReadLine();
 
             //Ensure that only approves categories get chosen
-            List<string> categoriesUsable = SetCategories();
             bool correctCat = false;
             string cat = "";
 
@@ -32,7 +24,7 @@ namespace RestaurantMenu
             {
                 Console.WriteLine("Category (Appetizer, Burger, Seafood, Sides, or Dessert):");
                 cat = Console.ReadLine();
-                foreach(string cats in categoriesUsable)
+                foreach(string cats in CategoryList)
                 {
                     if(cat == cats)
                     {
@@ -68,23 +60,22 @@ namespace RestaurantMenu
 
         public static void PrintMenu()
         {
-            Console.WriteLine("Welcome to ???!\n\n");
+            Console.WriteLine("Welcome to ???\n\n");
             
-            List<string> categoriesUsable = SetCategories();
-            foreach(string category in categoriesUsable)
+            foreach(string category in CategoryList)
             {
                 Console.WriteLine(category);
+                Console.WriteLine($"-----------------------");
                 foreach(MenuItems item in Items)
                 {
-                    Console.WriteLine($"-----------------------");
                     if(item.Category == category)
                     {
-                        Console.WriteLine(item.Name);
-                        Console.WriteLine(item.Description);
-                        Console.WriteLine(item.Price);
+                        Console.WriteLine($"Name: {item.Name}");
+                        Console.WriteLine($"Description: {item.Description}");
+                        Console.WriteLine($"Price: {item.Price}");
                     }
-                    Console.WriteLine($"-----------------------\n");
                 }
+                Console.WriteLine($"-----------------------\n");
             }
         }
     }

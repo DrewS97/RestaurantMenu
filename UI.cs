@@ -12,6 +12,7 @@ namespace RestaurantMenu
             string choice = Convert.ToString(Console.ReadLine());
             while(choice != "q")
             {
+
                 switch(choice)
                 {
                     case "1":
@@ -30,7 +31,7 @@ namespace RestaurantMenu
                         Console.WriteLine("Please enter either 1, 2, 3, or q");
                         break;
                 }
-                
+
                 if(choice != "q")
                 {
                     PrintOptions();
